@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(170, 255, 255);
+} 
+
+
+svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: solid 2px black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    margin-top: 3%;
+}
+
+#couleur {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 7vw;
+        height: 7vh;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        
+      
+}
+
+label {
+    position: absolute;
+    text-align: center;
+    color: #000;
+    font-family: Arial;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+#settings {
+    position: absolute;
+    width: 15%;
+    height:20%;
+    left: 15%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    border: solid 2px black;
+}
+
+input {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#couleur {
+    top: 17%;
+}
+
+#label_couleur {
+    top: 5%;
+}
+
+#label_largeur {
+    top: 55%;
+}
+
+#largeur {
+    top: 70%;
+}
+
+#largeur-size {
+    top: 85%;
+}
